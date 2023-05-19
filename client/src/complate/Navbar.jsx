@@ -14,7 +14,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 const Navbar = () => {
   return (
     <navbar >
-      <AppBar position="static">
+      <AppBar style={{backgroundColor:"rgb(36,53,161"}} position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
@@ -67,8 +67,8 @@ const Navbar = () => {
                       listStyle: "none",
                     }}
                   >
-                    <li>Login</li>
-                    <li>
+                    <li style={{marginLeft:"250px",padding:"10px"}}>Login</li>
+                    <li style={{marginRight:"150px"}}>
                     <Button variant="contained" style={{backgroundColor:"rgb(255,101,81)"}}>Join Us</Button>
                     </li>
                   </ul>

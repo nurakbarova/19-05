@@ -4,7 +4,7 @@ import styles from "./ourexpres.module.css";
 const OurExprest = () => {
   return (
     <section className={styles.OurExprest}>
-      <div className={styles.div2}>
+      <div className={styles.div_hero}>
         <p style={{ color: "rgb(255,101,81)",}}>Testimonials</p>
         <h3>Our Experts Teacher</h3>
         <p>
